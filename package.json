@@ -1,0 +1,29 @@
+{
+  "name": "github-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajverma2587/github-graphql-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajverma2587/github-graphql-server/issues"
+  },
+  "homepage": "https://github.com/surajverma2587/github-graphql-server#readme",
+  "dependencies": {
+    "apollo-server": "^3.0.0",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
